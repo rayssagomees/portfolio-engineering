@@ -1,21 +1,15 @@
 @import url('./index.css');
 
-.App{
+main{
+  width: 100vw; height: 100vh;
+  font-size: 4.4rem;
+}
+
+.animation-background{
   background: linear-gradient(270deg, #d1cfb4, #eee);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationOwmnerName 30s ease infinite;
   -moz-animation: AnimationOwmnerName 30s ease infinite;
   animation: AnimationOwmnerName 30s ease infinite;
-}
-
-.App-header {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--primaryColor);
-  font-size: var(--sizeLarge48);
-  text-align: center;
 }

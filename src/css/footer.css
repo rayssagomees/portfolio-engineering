@@ -1,19 +1,6 @@
 footer{
-    width: 100vw;
     background-color: var(--primaryColor);
-    text-align: center;
     color: var(--terciaryColor);
-    padding: var(--sizeSmall16);
-}
-
-@keyframes AnimationOwmnerName {
-    0% {background-position: 0% 50%}
-    50% {background-position: 100% 50%}
-    100% {background-position: 0% 50%}
-}
-
-.OwnerName{
-    font-weight: bold;
-    /*text-transform: uppercase;*/
-    color: var(--secundaryColor);
+    text-align: center;
+    padding: 2.4rem 1.6rem;
 }
