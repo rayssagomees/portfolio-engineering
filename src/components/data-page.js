@@ -1,5 +1,5 @@
 // page
-titlePage = 'Rayssa Gomes';
+titlePage = 'Carolina Gomes';
 subtitlePage = ' - O melhor jeito de construir os seus sonhos';
 
 // footer
