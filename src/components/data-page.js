@@ -1,6 +1,6 @@
 // page
 previousTitlePage = 'Engenheira ';
-titlePage = 'Carolina Gomes';
+titlePage = 'Rayssa Gomes';
 subtitlePage = ' - Unindo ideias e pessoas'; 
     // O melhor jeito de construir os seus sonhos
 
