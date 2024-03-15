@@ -3,7 +3,7 @@
     display: flex;
     position: fixed;
     right: 4%; bottom: 4%;
-    background-color: rgba(255, 165, 0, .5);
+    background-color: rgba(227, 204, 95, .5);
     color: var(--textColor);
     font-size: 2.4rem;
     padding: 1.6rem;
@@ -12,5 +12,5 @@
 }
 
 .btn-to-top:hover{
-    background-color: rgba(255, 165, 0, .75);
+    background-color: rgba(227, 204, 95, .75);
 }
