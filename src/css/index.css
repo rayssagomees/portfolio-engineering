@@ -14,8 +14,8 @@
 
 /* visual ID ****************************************/
 :root{
-  --primaryColor: #113B71 /*#0C2340*/;
-  --secundaryColor: #E9E548 /*#FFA500*/;
+  --primaryColor: #0B2649 /*#113B71 #0C2340*/;
+  --secundaryColor: #E3CC5F /*#E9E548 #FFA500*/;
   --terciaryColor: #E4E6E5 /*#eee*/;
   --grayDarkColor: #343735 /*#303030*/;
   --darkColor: #000000;
