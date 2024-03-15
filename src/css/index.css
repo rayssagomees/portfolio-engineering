@@ -23,8 +23,8 @@
   --darkColor: #000000;
   --brownDarkColor: #4A2D0A;
   
-  --fontTitle: 'Montserrat';
-  --fontText: 'Montserrat';
+  --fontTitle: 'Montserrat', sans-serif;
+  --fontText: 'Montserrat', sans-serif;
   
   --titleColor: #1a1a1a;
   --textColor: #2c2c2c;
