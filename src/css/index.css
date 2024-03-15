@@ -14,11 +14,11 @@
 
 /* visual ID ****************************************/
 :root{
-  --primaryColor: #0C2340;
-  --secundaryColor: #FFA500;
-  --terciaryColor: #eee;
+  --primaryColor: #113B71 /*#0C2340*/;
+  --secundaryColor: #E9E548 /*#FFA500*/;
+  --terciaryColor: #E4E6E5 /*#eee*/;
+  --grayDarkColor: #343735 /*#303030*/;
   --darkColor: #000000;
-  --grayDarkColor: #303030;
   --brownDarkColor: #4A2D0A;
   
   --fontTitle: 'Times New Roman';
