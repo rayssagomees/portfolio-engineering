@@ -1,16 +1,20 @@
-// page
-previousTitlePage = 'Enga. ';
-titlePage = 'Rayssa Gomes';
-subtitlePage = ' - Unindo ideias e pessoas'; 
+// profile
+career = 'Engenheira civil';
+careerAbbreviation = 'Enga.';
+authorName = 'Rayssa Gomes';
+slogan = 'Unindo ideias e pessoas'; 
     // O melhor jeito de construir os seus sonhos
+cta = 'Vamos construir juntos?'; 
+betweenLines = ' - ';
 
 // social links
-const feedbackAdress = 'https://g.page/r/CRgDqyPHAu7UEBM/review';
-const emailAdress = 'mailto:contato@carolina.eng.br';
-const whatsappAdress = 'https://wa.me/5566999691956';
-const instagramAdress = 'https://www.instagram.com/engrayssagomes/';
-const linkedinAdress = 'https://www.linkedin.com/in/rayssagomees/';
-const githubAdress = 'https://github.com/rayssagomees';
+const websiteAddress = 'https://www.carolina.eng.br/';
+const feedbackAddress = 'https://g.page/r/CRgDqyPHAu7UEBM/review';
+const emailAddress = 'mailto:contato@carolina.eng.br';
+const whatsappAddress = 'https://wa.me/5566999691956';
+const instagramAddress = 'https://www.instagram.com/engrayssagomes/';
+const linkedinAddress = 'https://www.linkedin.com/in/rayssagomees/';
+const githubAddress = 'https://github.com/rayssagomees';
 
 // footer
-licenseFooter = `. Todos os direitos reservados.`;
+rightsLicense = `. Todos os direitos reservados.`;

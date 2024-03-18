@@ -1,1 +1,1 @@
-document.title = `${previousTitlePage}${titlePage}${subtitlePage}`;
+document.title = `${authorName}${betweenLines}${career}`;
