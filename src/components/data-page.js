@@ -5,22 +5,24 @@ authorName = 'Rayssa Gomes';
 slogan = 'Unindo ideias e pessoas'; 
     // O melhor jeito de construir os seus sonhos
 cta = 'Vamos construir juntos?'; 
+
+// page
 previousTitlePage = '';
-subtitlePage = '';
 betweenLines = ' - ';
+subtitlePage = '';
+rightsLicense = `Todos os direitos reservados.`;
 
 // social links
-const domain = 'carolina.eng.br';
-const email = 'contato@carolina.eng.br';
+const domain = 'rayssagomes.com';
+const email = `contato@${domain}`;
 const phone = '66999691956';
+const username = `rayssagomees`;
+const altUsername = `engrayssagomes`;
 
 const websiteAddress = `https://www.${domain}/`;
 const feedbackAddress = 'https://g.page/r/CRgDqyPHAu7UEBM/review';
 const emailAddress = `mailto:${email}`;
 const whatsappAddress = `https://wa.me/55${phone}`;
-const instagramAddress = 'https://www.instagram.com/engrayssagomes/';
-const linkedinAddress = 'https://www.linkedin.com/in/rayssagomees/';
-const githubAddress = 'https://github.com/rayssagomees';
-
-// footer
-rightsLicense = `. Todos os direitos reservados.`;
+const instagramAddress = `https://www.instagram.com/${altUsername}/`;
+const linkedinAddress = `https://www.linkedin.com/in/${username}/`;
+const githubAddress = `https://github.com/${username}`;
