@@ -26,3 +26,7 @@ const whatsappAddress = `https://wa.me/55${phone}`;
 const instagramAddress = `https://www.instagram.com/${altUsername}/`;
 const linkedinAddress = `https://www.linkedin.com/in/${username}/`;
 const githubAddress = `https://github.com/${username}`;
+
+// professional
+const briefingOne = `https://forms.gle/nwv1EzenkTpXb2TD9`;
+const briefingTwo = `https://forms.gle/f3Lh1VmqNDGQYBvdA`;
