@@ -17,7 +17,7 @@ const domain = 'rayssagomes.com';
 const email = `contato@${domain}`;
 const phone = '66999691956';
 const username = `rayssagomees`;
-const altUsername = `engrayssagomes`;
+const altUsername = `rayssaengenheira`;
 
 const websiteAddress = `https://www.${domain}/`;
 const feedbackAddress = 'https://g.page/r/CRgDqyPHAu7UEBM/review';
