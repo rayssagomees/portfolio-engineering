@@ -15,7 +15,7 @@ rightsLicense = `Todos os direitos reservados.`;
 // social links
 const domain = 'rayssagomes.com';
 const email = `contato@${domain}`;
-const phone = '66999691956';
+const phone = '66992582646';
 const username = `rayssagomees`;
 const altUsername = `rayssaengenheira`;
 
