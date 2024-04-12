@@ -8,7 +8,7 @@ cta = 'Vamos construir juntos?';
 
 // page
 previousTitlePage = '';
-betweenLines = ' • ';
+betweenLines = ' - ';
 subtitlePage = '';
 rightsLicense = `Todos os direitos reservados.`;
 
