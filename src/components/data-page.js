@@ -27,6 +27,7 @@ const canalwhatsappAddress = `https://www.whatsapp.com/channel/0029VaiPPl1Elagou
 const instagramAddress = `https://www.instagram.com/${altUsername}/`;
 const linkedinAddress = `https://www.linkedin.com/in/${username}/`;
 const githubAddress = `https://github.com/${username}`;
+const youtubeAddress = `https://www.youtube.com/@${altUsername}`;
 
 // professional
 const orcamento = `https://forms.gle/S559iuq9PdsZRXK97`;
