@@ -23,6 +23,7 @@ const websiteAddress = `https://www.${domain}/`;
 const feedbackAddress = 'https://g.page/r/CRgDqyPHAu7UEBM/review';
 const emailAddress = `mailto:${email}`;
 const whatsappAddress = `https://wa.me/55${phone}`;
+const canalwhatsappAddress = `https://www.whatsapp.com/channel/0029VaiPPl1Elagouu8Lj10D`;
 const instagramAddress = `https://www.instagram.com/${altUsername}/`;
 const linkedinAddress = `https://www.linkedin.com/in/${username}/`;
 const githubAddress = `https://github.com/${username}`;
