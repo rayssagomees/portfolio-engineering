@@ -6,7 +6,7 @@ main{
 }
 
 .animation-background{
-  background: linear-gradient(270deg, #d1cfb4, #eee);
+  background: linear-gradient(270deg, #b4c4d1, #eee); /* #d1cfb4 */
   background-size: 400% 400%;
 
   -webkit-animation: AnimationOwmnerName 30s ease infinite;
