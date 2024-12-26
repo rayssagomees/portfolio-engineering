@@ -1,1 +1,1 @@
-document.title = `${authorName}${betweenLines}${career}`;
+document.title = `${shortenedCareer}${space}${authorName}`;

@@ -1,5 +1,6 @@
 // profile
 career = 'Engenheira civil';
+shortenedCareer = 'Engenheira';
 careerAbbreviation = 'Enga.';
 authorName = 'Rayssa Gomes';
 slogan = 'Unindo ideias e pessoas'; 
@@ -9,6 +10,7 @@ cta = 'Vamos construir juntos?';
 // page
 previousTitlePage = '';
 betweenLines = ' - ';
+space = ' ';
 subtitlePage = '';
 rightsLicense = `Todos os direitos reservados.`;
 
