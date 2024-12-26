@@ -30,6 +30,7 @@ const instagramAddress = `https://www.instagram.com/${altUsername}/`;
 const linkedinAddress = `https://www.linkedin.com/in/${username}/`;
 const githubAddress = `https://github.com/${username}`;
 const youtubeAddress = `https://www.youtube.com/@${altUsername}`;
+const curriculumAddress = 'https://docs.google.com/document/d/1-s7F9BdNBLpyjvT0DSSenNKiGIqQQMvZTnMvJwchsVw/edit?usp=sharing';
 
 // professional
 const orcamento = `https://forms.gle/S559iuq9PdsZRXK97`;
