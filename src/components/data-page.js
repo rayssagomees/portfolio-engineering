@@ -2,7 +2,7 @@
 career = 'Engenheira civil';
 shortenedCareer = 'Engenheira';
 careerAbbreviation = 'Enga.';
-shortenedName - 'Rayssa';
+shortenedName = 'Rayssa';
 authorName = 'Rayssa Gomes';
 slogan = 'Unindo ideias e pessoas'; 
     // O melhor jeito de construir os seus sonhos

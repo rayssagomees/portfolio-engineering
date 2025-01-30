@@ -29,7 +29,8 @@
   
   <!-- scripts -------------------------------------------------->
   <script>
-    var redirectionAdress = agendamentosAddress;
+    var redirectionAdress = typeof agendamentosAddress !== 'undefined' ? agendamentosAddress : '';
+
   </script>
   <script src="src/components/redirection.js"></script>
   <!-- <script src="src/components/main.js"></script>
