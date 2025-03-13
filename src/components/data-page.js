@@ -40,3 +40,6 @@ const orcamentoAddress = `https://forms.gle/S559iuq9PdsZRXK97`;
 
 const briefingOne = `https://forms.gle/nwv1EzenkTpXb2TD9`;
 const briefingTwo = `https://forms.gle/f3Lh1VmqNDGQYBvdA`;
+
+// innovates
+const innovatesHome = "https://www.innovates.com.br"
