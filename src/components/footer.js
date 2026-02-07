@@ -1,6 +1,8 @@
-var footer = document.createElement('footer');
-const dateFooter = new Date();
-const fullYearFooter = dateFooter.getFullYear();
-const contentFooter = `© ${fullYearFooter} ${authorName}. ${rightsLicense}`;
-footer.innerText = contentFooter;
-document.body.appendChild(footer);
+// cria um rodapé
+const footer = document.createElement('footer');
+
+// copyright
+const copyright = `Rayssa Gomes. Todos os direitos reservados.`
+
+// footer > copyright
+footer.appendChild(copyright);
