@@ -298,6 +298,7 @@ nav .logo img {
 }
 
 .project-card {
+    width: 350px;
     background: var(--gray-light);
     border-radius: 10px;
     overflow: hidden;
@@ -309,7 +310,7 @@ nav .logo img {
 }
 
 .project-image {
-    height: 75vh;
+    height: 250px;
     background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
     background-position: center;
     background-size: cover;
