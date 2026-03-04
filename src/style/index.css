@@ -309,7 +309,7 @@ nav .logo img {
 }
 
 .project-image {
-    height: 250px;
+    height: 75vh;
     background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
     background-position: center;
     background-size: cover;
