@@ -291,10 +291,13 @@ nav .logo img {
 }
 
 .projects-grid {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 3rem;*/
 }
 
 .project-card {
@@ -303,6 +306,7 @@ nav .logo img {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s;
+    margin: 3rem 1rem;
 }
 
 .project-card:hover {
