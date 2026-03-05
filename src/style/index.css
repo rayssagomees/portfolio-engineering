@@ -96,7 +96,7 @@ nav .logo img {
 
 /* Hero Section */
 .hero {
-    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('https://images.pexels.com/photos/6200438/pexels-photo-6200438.jpeg');
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('/src/images/building-image.jpeg');
     background-position: bottom;
     background-size: cover;
     color: var(--white);
@@ -395,7 +395,7 @@ nav .logo img {
 
 /* CTA Section */
 .cta-section {
-    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('https://images.pexels.com/photos/3862377/pexels-photo-3862377.jpeg');
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('/src/images/project-image.jpeg');
     background-position: center;
     background-size: cover;
     color: var(--white);
