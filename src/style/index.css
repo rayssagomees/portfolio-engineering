@@ -572,19 +572,41 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    body, .hero p, .cta-primary, .cta-secondary, .section-header p {
-        font-size: .8rem;
-    }
     header {
         display: none;
     }
 
-    .hero h1 {
+    .hero h1, 
+    .project-image {
         font-size: 2rem;
     }
 
-    .hero p {
+    .stat-number, 
+    .section-header h2, 
+    .cta-section h2 {
+        font: 1.5rem;
+    }
+
+    .logo, 
+    .service-icon, 
+    .service-card h3, 
+    .step-number {
+        font-size: 1rem;
+    }
+
+    .hero p, 
+    .section-header p, .cta-section p, 
+    .cta-primary, 
+    .cta-secundary, 
+    .submit-btn, 
+    .form-group input, .form-group textarea {
         font-size: .8rem;
+    }
+
+    .stat-label, 
+    .testimonial-role,
+    .project-tag {
+        font-size: .4rem;
     }
 
     .hero-column {
@@ -592,7 +614,8 @@ footer {
         flex-direction: row;
     }
 
-    .cta-primary, .cta-secondary {
+    .cta-primary, 
+    .cta-secondary {
         padding: 1rem 2rem;
     }
 
