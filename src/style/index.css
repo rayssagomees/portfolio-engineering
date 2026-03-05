@@ -515,6 +515,33 @@ nav .logo img {
     background: var(--primary-dark);
 }
 
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+
 /* Footer */
 footer {
     background: var(--dark);
