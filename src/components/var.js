@@ -1,7 +1,7 @@
 // Variáveis que agem como texto --------------------------------------------------------------------------------------
 const dados = {
     anoAtual: new Date().getFullYear(),
-    celular: '(66) 99969-1956',
+    celular: '+55 (66) 99969-1956',
     email: 'contato@rayssagomes.com',
     endereco: 'Barra do Garças e as proximidades',
     horarioAtendimento: 'Segunda a sexta: 7h às 17h',

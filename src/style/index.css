@@ -556,9 +556,25 @@ footer {
     margin-bottom: 2rem;
 }
 
-.footer-section h3 {
+footer .logo-footer img {
+    height: 2.4vh;
+    padding-right: 16px;
+    font-size: 1.5rem;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
     color: var(--accent);
     margin-bottom: 1rem;
+}
+
+.footer-section h3 {
+    color: var(--accent);
+    /*margin-bottom: 1rem;*/
 }
 
 .footer-section p {
@@ -654,5 +670,811 @@ footer {
 
     .section-header h2 {
         font-size: 2rem;
+    }
+}
+
+/* About Section */
+.about {
+    padding: 5rem 0;
+    background: var(--white);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.about-intro {
+    font-size: 1.3rem;
+    color: var(--dark);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.about-text p {
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.about-text strong {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.about-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.value-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--gray-light);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.value-item h3 {
+    color: var(--primary);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.value-item p {
+    font-size: 0.95rem;
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+.about-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.highlight-card {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary);
+}
+
+.highlight-card h3 {
+    color: var(--primary);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.highlight-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.highlight-list li {
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.highlight-cta {
+    background: var(--primary);
+    color: var(--white);
+    border-left: 4px solid var(--accent);
+}
+
+.highlight-cta h3 {
+    color: var(--accent);
+}
+
+.highlight-cta p {
+    color: var(--white);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 5rem 0;
+    background: var(--white);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: var(--dark);
+}
+
+.intro-text strong {
+    color: var(--primary);
+    font-size: 1.3rem;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: var(--gray);
+}
+
+.credentials {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.credential-item {
+    display: flex;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.credential-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.credential-item h4 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.credential-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.mission-box {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary);
+    margin: 2rem 0;
+}
+
+.mission-box h3 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.mission-box p {
+    margin: 0;
+    line-height: 1.8;
+}
+
+.values h3 {
+    color: var(--dark);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.value-item {
+    background: var(--gray-light);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.value-item strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.value-item p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.profile-card {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+}
+
+.profile-photo {
+    margin-bottom: 1.5rem;
+}
+
+.photo-placeholder {
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--white);
+    border: 5px solid var(--white);
+    box-shadow: 0 10px 30px rgba(112, 15, 58, 0.2);
+}
+
+.profile-card h3 {
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-card .title {
+    color: var(--gray);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.profile-card .crea {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 1.5rem 0;
+    border-top: 2px solid rgba(112, 15, 58, 0.1);
+    border-bottom: 2px solid rgba(112, 15, 58, 0.1);
+}
+
+.quick-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-num {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.stat-label {
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.specialties {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.specialties h4 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.specialties ul {
+    list-style: none;
+    padding: 0;
+}
+
+.specialties li {
+    padding: 0.5rem 0;
+    color: var(--dark);
+    border-bottom: 1px solid rgba(112, 15, 58, 0.1);
+}
+
+.specialties li:last-child {
+    border-bottom: none;
+}
+
+/* About Section */
+.about {
+    padding: 5rem 0;
+    background: var(--white);
+}
+
+.about-content {
+    margin-top: 3rem;
+}
+
+.about-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-placeholder {
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 20px 50px rgba(112, 15, 58, 0.2);
+}
+
+.about-text h3 {
+    color: var(--primary);
+    font-size: 1.8rem;
+}
+
+.about-text .subtitle {
+    text-transform: uppercase;
+}
+
+.about-text .cargo {
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--dark);
+}
+
+.about-text strong {
+    color: var(--primary);
+}
+
+.methodology-section {
+    background: var(--gray-light);
+    padding: 3rem;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+}
+
+.methodology-section h3 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.methodology-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: var(--gray);
+}
+
+.methodology-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.methodology-step {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary);
+}
+
+.methodology-number {
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.methodology-step h4 {
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+}
+
+.methodology-step p {
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+.credentials-section {
+    margin-bottom: 4rem;
+}
+
+.credentials-section h3 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.credentials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.credential-item {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.credential-item:hover {
+    transform: translateY(-5px);
+}
+
+.credential-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.credential-item h4 {
+    color: var(--primary);
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+}
+
+.credential-item p {
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+.values-section {
+    margin-bottom: 4rem;
+}
+
+.values-section h3 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.value-card {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    border-top: 4px solid var(--primary);
+}
+
+.value-card h4 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.value-card p {
+    color: var(--dark);
+    line-height: 1.7;
+}
+
+.philosophy-section {
+    margin-bottom: 4rem;
+}
+
+.philosophy-quote {
+    background: var(--primary);
+    color: var(--white);
+    padding: 3rem;
+    border-radius: 15px;
+    border-left: 6px solid var(--accent);
+    margin: 0;
+}
+
+.philosophy-quote p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.philosophy-quote cite {
+    font-size: 1.1rem;
+    font-style: normal;
+    opacity: 0.9;
+}
+
+.cta-about {
+    background: var(--gray-light);
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cta-about h3 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta-about p {
+    font-size: 1.1rem;
+    color: var(--gray);
+    margin-bottom: 2rem;
+}
+
+/* About Section */
+.about {
+    padding: 5rem 0;
+    background: var(--white);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-photo {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 4rem;
+    box-shadow: 0 20px 40px rgba(112, 15, 58, 0.2);
+}
+
+.about-photo img {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75));
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.credentials-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--accent);
+    color: var(--dark);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+    text-align: center;
+    font-weight: 700;
+}
+
+.credentials-badge .badge-title {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.credentials-badge .badge-number {
+    font-size: 2rem;
+    display: block;
+    margin: 0.25rem 0;
+}
+
+.about-text .intro {
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: var(--gray);
+}
+
+.credentials-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.credential-item {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.credential-icon {
+    width: 50px;
+    height: 50px;
+    background: var(--gray-light);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.credential-text h4 {
+    color: var(--dark);
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
+
+.credential-text p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.methodology {
+    background: var(--gray-light);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    border-left: 4px solid var(--primary);
+}
+
+.methodology h4 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.methodology-list {
+    list-style: none;
+    padding: 0;
+}
+
+.methodology-list li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--dark);
+}
+
+.methodology-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.differentiators {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.differentiator {
+    text-align: center;
+    padding: 2rem;
+    background: var(--gray-light);
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.differentiator:hover {
+    transform: translateY(-5px);
+}
+
+.differentiator-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.differentiator h4 {
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.differentiator p {
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+@media (max-width: 968px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .credentials-badge {
+        position: static;
+        margin-top: 1rem;
+    }
+
+    .differentiators {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-main {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-placeholder {
+        width: 220px;
+        height: 220px;
+    }
+
+    .methodology-grid,
+    .credentials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .methodology-section,
+    .philosophy-quote,
+    .cta-about {
+        padding: 2rem;
     }
 }
