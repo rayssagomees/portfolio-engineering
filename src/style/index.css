@@ -96,7 +96,9 @@ nav .logo img {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%), url('/src/images/cover-hero.png');
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('https://images.pexels.com/photos/6200438/pexels-photo-6200438.jpeg');
+    background-position: bottom;
+    background-size: cover;
     color: var(--white);
     padding: 6rem 0;
     text-align: center;
@@ -393,7 +395,9 @@ nav .logo img {
 
 /* CTA Section */
 .cta-section {
-    background: var(--primary);
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('https://images.pexels.com/photos/3862377/pexels-photo-3862377.jpeg');
+    background-position: center;
+    background-size: cover;
     color: var(--white);
     padding: 5rem 0;
     text-align: center;
@@ -568,7 +572,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .nav-links {
+    header {
         display: none;
     }
 
@@ -578,6 +582,15 @@ footer {
 
     .hero p {
         font-size: 1.1rem;
+    }
+
+    .hero-column {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cta-primary, .cta-secondary {
+        padding: 1rem 2rem;
     }
 
     .contact-grid {
