@@ -496,6 +496,7 @@ nav .logo img {
 .form-group textarea {
     min-height: 120px;
     resize: vertical;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
 .submit-btn {
