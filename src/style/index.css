@@ -572,6 +572,9 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+    body, .hero p, .cta-primary, .cta-secondary, .section-header p {
+        font-size: .8rem;
+    }
     header {
         display: none;
     }
@@ -581,7 +584,7 @@ footer {
     }
 
     .hero p {
-        font-size: 1.1rem;
+        font-size: .8rem;
     }
 
     .hero-column {
