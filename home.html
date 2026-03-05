@@ -37,7 +37,7 @@
         <div class="cover-hero"></div>
         <div class="container">
             <h1>Transformamos suas ideias em projetos<br>de engenharia de excelência</h1>
-            <p>Mais de 4 anos construindo soluções seguras, sustentáveis e inovadoras</p>
+            <p>Mais de <span data-var="anosExperiencia"></span> anos construindo soluções seguras, sustentáveis e inovadoras</p>
             <div class="hero-column">
                 <a href="#contato" class="cta-primary">Agende uma consulta gratuita</a>
                 <a href="#projetos" class="cta-secondary">Veja nossos projetos</a>
@@ -54,7 +54,7 @@
                     <span class="stat-label">Projetos concluídos</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">4</span>
+                    <span class="stat-number" data-var="anosExperiencia"></span>
                     <span class="stat-label">Anos de experiência</span>
                 </div>
                 <div class="stat">
@@ -236,28 +236,28 @@
                         <div class="contact-icon"><i class="fi fi-rr-marker"></i></div>
                         <div>
                             <h3>Áreas atendidas</h3>
-                            <p>Barra do Garças e as proximidades</p>
+                            <p><span data-var="endereco"></span></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fi fi-rr-phone-call"></i></div>
                         <div>
                             <h3>Celular</h3>
-                            <a href="https://wa.me/5566999691956">(66) 99969-1956</a>
+                            <a data-link="whatsapp"><span data-var="celular"></span></a>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fi fi-rr-envelope"></i></div>
                         <div>
                             <h3>E-mail</h3>
-                            <a href="mailto:contato@rayssagomes.com">contato@rayssagomes.com</a>
+                            <a data-link="email"><span data-var="email"></span></a>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon"><i class="fi fi-rr-clock"></i></div>
                         <div>
                             <h3>Horário de atendimento</h3>
-                            <p>Segunda a sexta: 7h às 17h</p>
+                            <p><span data-var="horarioAtendimento"></span></p>
                         </div>
                     </div>
                 </div>
@@ -291,7 +291,7 @@
                 <div class="footer-section">
                     <h3>Rayssa Gomes&reg;</h3>
                     <p>Estudante de engenharia civil na Universidade Federal de Mato Grosso. Com interesse em planejamento urbano e desenvolvimento de projetos em Barra do Garças e proximidades.</p>
-                    <a href="https://www.instagram.com/rayssaengenheira/" target="_blank"><i class="fi fi-brands-instagram"></i></a>
+                    <a data-link="instagram" target="_blank"><i class="fi fi-brands-instagram"></i></a>
                 </div>
                 <div class="footer-section">
                     <h3>Serviços</h3>
@@ -325,11 +325,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Rayssa Gomes<!-- - CNPJ 00.000.000/0000-00-->. Todos os direitos reservados.</p>
+                <p>&copy; <span data-var="anoAtual"></span> Rayssa Gomes<!-- - CNPJ 00.000.000/0000-00-->. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
     <script src="src/components/smooth-scrolling.js"></script>
+    <script src="src/components/var.js"></script>
 </body>
 </html>
