@@ -1,11 +1,14 @@
 // Variáveis que agem como texto --------------------------------------------------------------------------------------
 const dados = {
     anoAtual: new Date().getFullYear(),
-    anosExperiencia: new Date().getFullYear()-2022,
     celular: '(66) 99969-1956',
     email: 'contato@rayssagomes.com',
     endereco: 'Barra do Garças e as proximidades',
     horarioAtendimento: 'Segunda a sexta: 7h às 17h',
+    projetosConcluidos: 20 + '+',
+    anosExperiencia: new Date().getFullYear()-2022,
+    clientesSatisfeitos: 97/100 * 100 +'%',
+    dinheiroObrasExecutadas: 'R$' + 10 + 'k+',
 };
 
 function inserirVariaveis() {
