@@ -309,7 +309,7 @@ nav .logo img {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s;
-    margin: 3rem 1rem;
+    margin: 0 1rem;
 }
 
 .project-card:hover {
