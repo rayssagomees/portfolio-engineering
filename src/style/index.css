@@ -622,35 +622,32 @@ footer .logo-footer img {
 
     .hero h1, 
     .project-image {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .stat-number, 
     .section-header h2, 
     .cta-section h2 {
-        font: 1.5rem;
+        font: 1.2rem;
     }
 
     .logo, 
     .service-icon, 
     .service-card h3, 
-    .step-number {
-        font-size: 1rem;
-    }
-
+    .step-number,
     .hero p, 
     .section-header p, .cta-section p, 
     .cta-primary, 
     .cta-secondary, 
     .submit-btn, 
     .form-group input, .form-group textarea {
-        font-size: .8rem;
+        font-size: 1rem;
     }
-
+    
     .stat-label, 
     .testimonial-role,
-    .project-tag {
-        font-size: .4rem;
+    .project-tag{
+        font-size: .8rem;
     }
 
     .hero-column {
