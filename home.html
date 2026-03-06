@@ -16,6 +16,9 @@
     <meta name="theme-color" content="#700F3A">
     <link rel="shortcut icon" href="src/assets/logo-rg-bordo.png" type="image/x-icon">
     <link rel="stylesheet" href="src/style/index.css">
+
+    <!-- scripts-->
+    <script src="src/components/popup.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -490,7 +493,9 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" action="https://formspree.io/f/xojkaapa" method="post">
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/xojkaapa" method="post">
+                    <input type="hidden" name="_subject" value="Novo contato do site">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="Nome" required>
@@ -510,12 +515,12 @@
                     <div class="form-group">
                         <label>Do que precisa para o seu projeto?</label>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px">
-                            <div><input type="checkbox" name="servico" value="Arquitetonico"> Projeto arquitetônicos</div>
-                            <div><input type="checkbox" name="servico" value="Estrutural"> Projeto estrutural</div>
-                            <div><input type="checkbox" name="servico" value="Eletrico"> Projeto elétricos</div>
-                            <div><input type="checkbox" name="servico" value="Hidraulico"> Projeto hidrossanitário</div>
-                            <div><input type="checkbox" name="servico" value="Gerenciamento"> Gerenciamento de obra</div>
-                            <div><input type="checkbox" name="servico" value="Pericia"> Perícia e vistoria</div>
+                            <div><input type="checkbox" name="Servico[]" value="Arquitetonico"> Projeto arquitetônicos</div>
+                            <div><input type="checkbox" name="Servico[]" value="Estrutural"> Projeto estrutural</div>
+                            <div><input type="checkbox" name="Servico[]" value="Eletrico"> Projeto elétricos</div>
+                            <div><input type="checkbox" name="Servico[]" value="Hidraulico"> Projeto hidrossanitário</div>
+                            <div><input type="checkbox" name="Servico[]" value="Gerenciamento"> Gerenciamento de obra</div>
+                            <div><input type="checkbox" name="Servico[]" value="Pericia"> Perícia e vistoria</div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -565,7 +570,7 @@
 
                 <div class="cta-section-popup">
                     <div class="cta-buttons-popup">
-                        <button class="btn-primary-popup" onclick="submitFeedback()">Enviar feedback</button>
+                        <button class="btn-primary-popup" onclick="submitFeedback(this)">Enviar feedback</button>
                         <button class="btn-secondary-popup" onclick="closePopup()">
                             Só dando uma olhadinha
                         </button>
@@ -629,16 +634,8 @@
         </div>
     </footer>
 
+    <script src="src/components/faq.js"></script>
     <script src="src/components/smooth-scrolling.js"></script>
     <script src="src/components/var.js"></script>
-    <script src="src/components/form-submission.js"></script>
-    <script src="src/components/faq.js"></script>
-    <script src="src/components/popup.js"></script>
-
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script src="src/components/google-maps.js"></script>
-    
 </body>
 </html>
