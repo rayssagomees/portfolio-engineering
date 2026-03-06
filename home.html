@@ -548,6 +548,39 @@
       <gmp-advanced-marker></gmp-advanced-marker>
     </gmp-map>-->
 
+    <div class="popup-overlay" id="popupOverlay">
+    <div class="popup-container">
+        <div class="popup-header">
+            <button class="close-button" onclick="closePopup()"><i class="fi fi-br-cross"></i></button>
+            <h2>Antes de ir... Ficou alguma dúvida?</h2>
+            <p>O que impediu você de dar o próximo passo para realizar o seu sonho hoje?</p>
+        </div>
+
+        <div class="popup-body" id="popupContent">
+            <div id="mainContent">
+                <div class="other-input-container">
+                    <label style="font-weight: bold; color: var(--primary-color);">Sua opinião sincera (pode ser curta):</label>
+                    <textarea id="otherText" placeholder="Ex: Fiquei na dúvida se atende a minha região, tive receio em relação aos preços, ou não encontrei o serviço exato que procuro..." required></textarea>
+                </div>
+
+                <div class="cta-section-popup">
+                    <div class="cta-buttons-popup">
+                        <button class="btn-primary-popup" onclick="submitFeedback()">Enviar feedback</button>
+                        <button class="btn-secondary-popup" onclick="closePopup()">
+                            Só dando uma olhadinha
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="success-message" id="successMessage">
+                <h3>Muito obrigada!</h3>
+                <p>A sua resposta é fundamental para eu melhorar meu atendimento e trazer informações cada vez mais claras para cá.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -600,6 +633,7 @@
     <script src="src/components/var.js"></script>
     <script src="src/components/form-submission.js"></script>
     <script src="src/components/faq.js"></script>
+    <script src="src/components/popup.js"></script>
 
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>

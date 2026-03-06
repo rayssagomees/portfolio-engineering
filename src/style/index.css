@@ -1,6 +1,7 @@
 /*Biblioteca de ícones*/
 @import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
 /*Estilo de folha*/
 @import url(header.css);
@@ -13,6 +14,7 @@
 @import url(section-project.css);
 @import url(section-faq.css);
 @import url(section-contact.css);
+@import url(popup.css);
 @import url(footer.css);
 
 * {
