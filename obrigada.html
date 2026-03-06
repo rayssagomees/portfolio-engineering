@@ -5,26 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title translate="no">Obrigada! - Rayssa Gomes</title>
+    <title translate="no">Rayssa Gomes - Obrigada!</title>
 
     <meta name="theme-color" content="#1A2436">
-    <link rel="shortcut icon" href="src/images/logo-rg-bordo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/assets/logo-rg-bordo.png" type="image/x-icon">
     <link rel="stylesheet" href="src/style/index.css">
 </head>
-<body style="background-color: #F4F6F8; display: flex; flex-direction: column; min-height: 100vh;">
-    
-    <header style="background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-        <nav class="container" style="justify-content: center;">
-            <div class="logo"><img src="src/images/logo-rg-bordo.png" alt="Logo Rayssa Gomes">Rayssa Gomes</div>
-        </nav>
-    </header>
+<body>
+    <!-- Header -->
+     <site-header></site-header>
 
     <main style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 60px 20px;">
         <div style="background: white; max-width: 650px; width: 100%; padding: 50px; border-radius: 12px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 5px solid #25D366;">
-            
-            <div style="width: 80px; height: 80px; background: #e8f9ee; color: #25D366; font-size: 3rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px;">
-                <i class="fi fi-rr-check"></i>✓
-            </div>
 
             <h1 style="color: #1A2436; font-size: 2.2rem; margin-bottom: 15px;">Mensagem enviada com sucesso!</h1>
             <p style="color: #555; font-size: 1.1rem; margin-bottom: 40px;">Recebi as informações do seu projeto. Fico muito feliz com a sua confiança no meu trabalho.</p>
@@ -61,9 +53,12 @@
         </div>
     </main>
 
-    <footer style="background: #1A2436; padding: 20px; text-align: center; color: #888; font-size: 0.85rem;">
-        <p>© <span data-var="anoAtual">2026</span> Rayssa Gomes. Todos os direitos reservados.</p>
-    </footer>
+    <!-- Footer -->
+    <site-footer></site-footer>
+
+    <!-- Scripts -->
+     <script src="src/components/header.js"></script>
+    <script src="src/components/footer.js"></script>
 
 </body>
 </html>
