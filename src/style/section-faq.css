@@ -128,7 +128,9 @@
 }
 
 .faq-cta {
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('/src/assets/faq-bg.jpg');
+    background-position: center;
+    background-size: cover;
     color: var(--white);
     padding: 2rem;
     border-radius: 10px;
