@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("popupOverlay");
 
     const POPUP_KEY = "popupShownDate";
-    const DAYS_HIDE = 0;
+    const DAYS_HIDE = 7;
 
     function canShowPopup() {
 
