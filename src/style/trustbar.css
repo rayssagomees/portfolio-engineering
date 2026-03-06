@@ -1,0 +1,29 @@
+/* Trust Indicators */
+.trust-bar {
+    background: var(--gray-light);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.trust-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.stat {
+    padding: 1rem;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    display: block;
+}
+
+.stat-label {
+    color: var(--gray);
+    font-size: 0.95rem;
+}

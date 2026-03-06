@@ -1,0 +1,24 @@
+/* CTA Section */
+.cta-section {
+    background-image: linear-gradient(125deg, rgba(112, 15, 58,0.5), rgba(112, 15, 58,0.75)), url('/src/assets/project-image.jpeg');
+    background-position: center;
+    background-size: cover;
+    color: var(--white);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+}
+
+.conversion {
+    font-size: .8rem !important;
+}

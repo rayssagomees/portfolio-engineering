@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", inserirVariaveis);
 const links = {
     email: "mailto:contato@rayssagomes.com",
     instagram: 'https://www.instagram.com/rayssaengenheira/',
-    whatsapp: "https://wa.me/5566999691956",
+    whatsapp: "https://wa.me/5566999691956?text=Olá,%20gostaria%20de%20agendar%20uma%20consulta%20gratuita%20para%20o%20meu%20projeto!",
 };
 
 function inserirLinks() {
