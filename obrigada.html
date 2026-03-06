@@ -15,50 +15,64 @@
     <!-- Header -->
      <site-header></site-header>
 
-    <main style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 60px 20px;">
-        <div style="background: white; max-width: 650px; width: 100%; padding: 50px; border-radius: 12px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border-top: 5px solid #25D366;">
-
-            <h1 style="color: #1A2436; font-size: 2.2rem; margin-bottom: 15px;">Mensagem enviada com sucesso!</h1>
-            <p style="color: #555; font-size: 1.1rem; margin-bottom: 40px;">Recebi as informações do seu projeto. Fico muito feliz com a sua confiança no meu trabalho.</p>
-
-            <div style="background: #F4F6F8; padding: 30px; border-radius: 8px; text-align: left; margin-bottom: 40px; border-left: 4px solid #1A2436;">
-                <h3 style="color: #1A2436; margin-bottom: 15px; font-size: 1.2rem;">O que acontece agora?</h3>
-                <ul style="list-style: none; padding: 0; color: #444;">
-                    <li style="margin-bottom: 15px; display: flex; gap: 10px;">
-                        <strong style="color: #D72638;">1.</strong> 
-                        <span>Vou analisar detalhadamente os serviços que você marcou e os detalhes que preencheu.</span>
-                    </li>
-                    <li style="margin-bottom: 15px; display: flex; gap: 10px;">
-                        <strong style="color: #D72638;">2.</strong> 
-                        <span>Em <strong>menos de 24h úteis</strong>, enviarei uma mensagem para o seu WhatsApp ou E-mail.</span>
-                    </li>
-                    <li style="display: flex; gap: 10px;">
-                        <strong style="color: #D72638;">3.</strong> 
-                        <span>Agendaremos o nosso diagnóstico gratuito (rápido e sem compromisso) para alinhar as suas ideias à viabilidade técnica.</span>
-                    </li>
-                </ul>
-            </div>
-
-            <h4 style="color: #1A2436; margin-bottom: 15px;">Enquanto aguarda o meu retorno...</h4>
-            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Veja os bastidores dos meus projetos, dicas sobre engenharia em BIM e o acompanhamento de obras no meu Instagram profissional.</p>
-            
-            <a href="https://instagram.com/rayssaengenheira" target="_blank" rel="noopener noreferrer" style="background: #0F4C5C; color: white; padding: 15px 30px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-flex; align-items: center; gap: 10px; transition: 0.3s;">
-                Acompanhar @rayssaengenheira 
-            </a>
-
-            <div style="margin-top: 30px;">
-                <a href="index.html" style="color: #D72638; text-decoration: underline; font-weight: bold; font-size: 0.9rem;">← Voltar para a página inicial</a>
-            </div>
-
+    <!-- Hero Section -->
+    <section class="thanks">
+        <div class="cover-thanks"></div>
+        <div class="container">
+            <h1>Mensagem enviada com sucesso!</h1>
+            <p>Recebi as informações do seu sonho. Fico muito feliz com a sua confiança no meu trabalho.</p>
         </div>
-    </main>
+    </section>
+
+    <!-- Process Section -->
+    <section id="processo" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que acontece agora?</h2>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Análise técnica</h3>
+                    <p>Vou analisar detalhadamente os serviços que você marcou e os detalhes que preencheu.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Retorno em até 24h</h3>
+                    <p>Em menos de 24h úteis, enviarei uma mensagem para o seu WhatsApp ou E-mail.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Diagnóstico gratuito</h3>
+                    <p>Agendaremos o nosso diagnóstico gratuito (rápido e sem compromisso) para alinhar as suas ideias à viabilidade técnica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section-thanks">
+        <div class="container">
+            <h2>Enquanto aguarda o meu retorno...</h2>
+            <p>Veja os bastidores dos meus projetos e o acompanhamento de obras no meu Instagram profissional.</p>
+            <a data-link="instagram" class="cta-primary-thanks" target="_blank">Acompanhar @rayssaengenheira</a>
+        </div>
+    </section>
+
+    <!-- Return -->
+    <section class="return">
+        <div class="container">
+            <a href="index.html"><p>Voltar para a página inicial</p></a>
+        </div>
+    </section>
 
     <!-- Footer -->
     <site-footer></site-footer>
 
     <!-- Scripts -->
-     <script src="src/components/header.js"></script>
+    <script src="src/components/header.js"></script>
     <script src="src/components/footer.js"></script>
+    <script src="src/components/var.js"></script>
 
 </body>
 </html>
