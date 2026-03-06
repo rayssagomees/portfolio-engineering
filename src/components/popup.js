@@ -172,7 +172,7 @@ form.addEventListener("submit", async function(e){
 
         if(response.ok){
 
-            window.location.href = "/obrigado";
+            window.location.href = "/obrigada";
 
         }else{
 
