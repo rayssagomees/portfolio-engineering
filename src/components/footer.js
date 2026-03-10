@@ -14,8 +14,8 @@ class SiteFooter extends HTMLElement {
                         Projetos desenvolvidos por Rayssa Gomes, com validação e responsabilidade técnica de engenheiros parceiros registrados no CREA. Garantia de conformidade legal e segurança técnica em todos os serviços.
                         </p>
 
-                        <a data-link="instagram" target="_blank" rel="noopener noreferrer">
-                            <i class="fi fi-brands-instagram"></i>
+                        <a data-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil no Instagram">
+                            <i class="fi fi-brands-instagram" aria-hidden="true"></i>
                         </a>
                     </div>
 
