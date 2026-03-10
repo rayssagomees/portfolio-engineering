@@ -1,0 +1,34 @@
+[
+  {
+    "titulo": "Como a compatibilização em BIM economiza até 15% na sua obra",
+    "link": "blog/compatibilizacao-bim.html",
+    "data": "Tue, 10 Mar 2026 09:00:00 -0300",
+    "categoria": "Planeamento",
+    "descricao": "Descubra porque fazer o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir.",
+    "imagem": "src/images/blog-bim.jpg"
+  },
+  {
+    "titulo": "Mitos e verdades sobre o uso de fundações profundas",
+    "link": "blog/fundacoes-profundas.html",
+    "data": "Mon, 02 Mar 2026 14:30:00 -0300",
+    "categoria": "Fundações",
+    "descricao": "Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.",
+    "imagem": "src/images/blog-fundacoes.jpg"
+  },
+  {
+    "titulo": "Mitos e verdades sobre o uso de fundações profundas",
+    "link": "blog/fundacoes-profundas.html",
+    "data": "Mon, 02 Mar 2026 14:30:00 -0300",
+    "categoria": "Fundações",
+    "descricao": "Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.",
+    "imagem": "src/images/blog-fundacoes.jpg"
+  },
+  {
+    "titulo": "Mitos e verdades sobre o uso de fundações profundas",
+    "link": "blog/fundacoes-profundas.html",
+    "data": "Mon, 02 Mar 2026 14:30:00 -0300",
+    "categoria": "Fundações",
+    "descricao": "Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.",
+    "imagem": "src/images/blog-fundacoes.jpg"
+  }
+]
