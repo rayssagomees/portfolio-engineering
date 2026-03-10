@@ -35,10 +35,10 @@
 }
 
 .section-title {
-    color: var(--primary, --primary-dark);
+    color: var(--dark);
     margin-bottom: 30px;
     font-size: 1.5rem;
-    border-bottom: 2px solid --gray-light;
+    border-bottom: 2px solid #eee;
     padding-bottom: 10px;
 }
 
