@@ -13,7 +13,7 @@ class SiteHeader extends HTMLElement {
                     <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#processo">Processo</a></li>
-                    <li><a href="#contato" class="cta-nav">Solicitar consultoria gratuita</a></li>
+                    <li><a href="#contato" class="cta-nav">Consultoria gratuita</a></li>
                 </ul>
 
             </nav>

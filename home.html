@@ -518,6 +518,16 @@
                         <input type="text" id="como-conheceu" name="como-conheceu" placeholder="Ex: Indicação de um amigo, Instagram, pesquisa no Google..." required>
                     </div>
                     <div class="form-group">
+                        <label for="Prazo">Quando pretende iniciar o projeto/obra?</label>
+                        <select name="Prazo">
+                            <option value="" disabled selected>Selecione um prazo</option>
+                            <option value="Imediatamente">O quanto antes</option>
+                            <option value="1 a 3 meses">Nos próximos 1 a 3 meses</option>
+                            <option value="Ainda este ano">Ainda este ano</option>
+                            <option value="Apenas pesquisando">Apenas pesquisando</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <label>Do que precisa para o seu projeto?</label>
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px">
                             <div><input type="checkbox" name="Servico[]" value="Arquitetonico"> Projeto arquitetônicos</div>
@@ -530,7 +540,7 @@
                     </div>
                     <div class="form-group">
                         <label for="mensagem">Detalhes adicionais (opcional)</label>
-                        <textarea id="mensagem" name="Mensagem" placeholder="Fale um pouco mais sobre o terreno, a ideia ou o prazo..."></textarea>
+                        <textarea id="mensagem" name="Mensagem" placeholder="Fale um pouco mais sobre o terreno ou a ideia..."></textarea>
                     </div>
                     <button type="submit" class="submit-btn">Agendar consultoria gratuita</button>
 
