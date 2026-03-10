@@ -90,7 +90,7 @@ ${htmlPosts}
         <div class="container bottom-cta-container">
             <h2>Tem um projeto em mente?</h2>
             <p>Deixe a parte complexa dos cálculos e das aprovações comigo. Solicite uma análise inicial para o seu terreno ou reforma sem qualquer compromisso.</p>
-            <a href="index.html#contato" class="btn-primary">Quero o meu diagnóstico gratuito</a>
+            <a href="/home#contato" class="btn-primary">Quero o meu diagnóstico gratuito</a>
         </div>
     </section>
 
