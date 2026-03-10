@@ -5,7 +5,7 @@ class SiteHeader extends HTMLElement {
             <nav class="container">
 
                 <div class="logo">
-                    <img src="src/assets/logo-rg-bordo.png" alt="Logo Rayssa Gomes">
+                    <img src="src/assets/logo-rg-bordo.webp" alt="Logo Rayssa Gomes">
                     Rayssa Gomes
                 </div>
 

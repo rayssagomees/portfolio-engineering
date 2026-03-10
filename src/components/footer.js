@@ -7,7 +7,7 @@ class SiteFooter extends HTMLElement {
 
                     <div class="footer-section">
                         <div class="logo-footer">
-                            <img src="src/assets/logo-rg-dourado.png" alt="Logo Rayssa Gomes">
+                            <img src="src/assets/logo-rg-dourado.webp" alt="Logo Rayssa Gomes">
                         </div>
 
                         <p>
