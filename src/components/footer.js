@@ -22,12 +22,12 @@ class SiteFooter extends HTMLElement {
                     <div class="footer-section">
                         <h3>Serviços</h3>
                         <ul class="footer-links">
-                            <li><a href="#servicos">Gerenciamento de obras</a></li>
-                            <li><a href="#servicos">Perícia e vistoria</a></li>
-                            <li><a href="#servicos">Projetos arquitetônicos</a></li>
-                            <li><a href="#servicos">Projetos elétricos</a></li>
-                            <li><a href="#servicos">Projetos estruturais</a></li>
-                            <li><a href="#servicos">Projetos hidráulicos</a></li>
+                            <li><a href="/home#servicos">Gerenciamento de obras</a></li>
+                            <li><a href="/home#servicos">Perícia e vistoria</a></li>
+                            <li><a href="/home#servicos">Projetos arquitetônicos</a></li>
+                            <li><a href="/home#servicos">Projetos elétricos</a></li>
+                            <li><a href="/home#servicos">Projetos estruturais</a></li>
+                            <li><a href="/home#servicos">Projetos hidráulicos</a></li>
                         </ul>
                     </div>
 
@@ -36,8 +36,8 @@ class SiteFooter extends HTMLElement {
                         <ul class="footer-links">
                             <li><a href="/blog">Blog</a></li>
                             <li><a href="/">Carreiras</a></li>
-                            <li><a href="#faq">FAQ</a></li>
-                            <li><a href="#projetos">Portfólio</a></li>
+                            <li><a href="/home#faq">FAQ</a></li>
+                            <li><a href="/home#projetos">Portfólio</a></li>
                             <!--<li><a href="https://www.rayssagomes.com/rss.xml" target="_blank" aria-label="Assinar Feed RSS" title="Subscrever via RSS"><i class="fi fi-rs-rss"></i>Subscrever via RSS</a></li>-->
                         </ul>
                     </div>
