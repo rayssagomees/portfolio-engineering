@@ -36,6 +36,7 @@ class SiteFooter extends HTMLElement {
                         <ul class="footer-links">
                             <li><a href="#projetos">Portfólio</a></li>
                             <li><a href="#faq">Perguntas frequentes</a></li>
+                            <li><a href="https://www.rayssagomes.com/rss.xml" target="_blank" aria-label="Assinar Feed RSS" title="Subscrever via RSS"><i class="fi fi-rs-rss"></i>Subscrever via RSS</a></li>
                         </ul>
                     </div>
 

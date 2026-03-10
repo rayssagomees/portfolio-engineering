@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Blog Rayssa Gomes - Engenharia Civil</title>
+  <link>https://www.rayssagomes.com/blog</link>
+  <description>Dicas de engenharia civil, projetos estruturais otimizados em BIM e economia no canteiro de obras.</description>
+  <language>pt-br</language>
+  <atom:link href="https://www.rayssagomes.com/rss.xml" rel="self" type="application/rss+xml" />
+  
+  <item>
+    <title>Como a compatibilização em BIM economiza até 15% na sua obra</title>
+    <link>https://www.rayssagomes.com/blog/compatibilizacao-bim.html</link>
+    <guid>https://www.rayssagomes.com/blog/compatibilizacao-bim.html</guid>
+    <pubDate>Tue, 10 Mar 2026 09:00:00 -0300</pubDate>
+    <description>Descubra porque fazer o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir.</description>
+  </item>
+
+  <item>
+    <title>Mitos e verdades sobre o uso de fundações profundas</title>
+    <link>https://www.rayssagomes.com/blog/fundacoes-profundas.html</link>
+    <guid>https://www.rayssagomes.com/blog/fundacoes-profundas.html</guid>
+    <pubDate>Mon, 02 Mar 2026 14:30:00 -0300</pubDate>
+    <description>Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro.</description>
+  </item>
+
+</channel>
+</rss>
