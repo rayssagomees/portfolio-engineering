@@ -37,15 +37,15 @@ class SiteFooter extends HTMLElement {
                             <li><a href="#projetos">Portfólio</a></li>
                             <li><a href="/blog">Blog</a></li>
                             <li><a href="#faq">Perguntas frequentes</a></li>
-                            <li><a href="https://www.rayssagomes.com/rss.xml" target="_blank" aria-label="Assinar Feed RSS" title="Subscrever via RSS"><i class="fi fi-rs-rss"></i>Subscrever via RSS</a></li>
+                            <!--<li><a href="https://www.rayssagomes.com/rss.xml" target="_blank" aria-label="Assinar Feed RSS" title="Subscrever via RSS"><i class="fi fi-rs-rss"></i>Subscrever via RSS</a></li>-->
                         </ul>
                     </div>
 
                     <div class="footer-section">
                         <h3>Transparência</h3>
                         <ul class="footer-links">
-                            <li><a href="#">Termos de uso</a></li>
-                            <li><a href="#">Política de privacidade</a></li>
+                            <li><a href="#">Termos</a></li>
+                            <li><a href="#">Privacidade</a></li>
                         </ul>
                     </div>
 

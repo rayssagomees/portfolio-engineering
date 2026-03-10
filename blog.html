@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title translate="no">Blog Rayssa Gomes - Engenharia Civil</title>
     <meta name="description" content="Artigos, dicas e estudos de caso sobre engenharia civil, projetos em BIM e planeamento de obras para evitar desperdícios.">
-    <meta name="theme-color" content="#1A2436">
+    <meta name="theme-color" content="#700F3A">
     <link rel="shortcut icon" href="src/assets/logo-rg-bordo.png" type="image/x-icon">
     <link rel="stylesheet" href="src/style/index.css">
     <script src="src/components/popup.js" defer></script>
@@ -15,87 +15,67 @@
 <body>
     <site-header></site-header>
 
-    <section style="background: #1A2436; color: white; padding: 60px 20px; text-align: center;">
-        <div class="container" style="max-width: 800px; margin: 0 auto;">
-            <h1 style="font-size: 2.5rem; margin-bottom: 15px;">Engenharia na Prática</h1>
-            <p style="font-size: 1.1rem; color: #ccc; line-height: 1.6;">Insights técnicos, estudos de caso estruturais e dicas práticas para economizar no seu estaleiro de obras sem comprometer a segurança.</p>
+    <section class="blog-hero">
+        <div class="container blog-hero-container">
+            <h1>Engenharia na Prática</h1>
+            <p>Insights técnicos, estudos de caso estruturais e dicas práticas para economizar no seu estaleiro de obras sem comprometer a segurança.</p>
         </div>
     </section>
 
-    <main class="container" style="padding: 50px 20px; flex: 1; max-width: 1100px; margin: 0 auto;">
-
-        <section style="margin-bottom: 60px;">
-            <div style="background: white; border-radius: 12px; overflow: hidden; display: flex; flex-wrap: wrap; box-shadow: 0 10px 30px rgba(0,0,0,0.05); border: 1px solid #eee;">
-                <div style="flex: 1; min-width: 300px; background: #0F4C5C; display: flex; align-items: center; justify-content: center; color: white; min-height: 250px;">
-                    [Imagem do Post de Destaque]
-                </div>
-                <div style="flex: 1; min-width: 300px; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
-                    <span style="color: #D72638; font-size: 0.85rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Artigo em Destaque</span>
-                    <h2 style="color: #1A2436; margin-bottom: 15px; font-size: 1.8rem; line-height: 1.2;">Como a compatibilização em BIM economiza até 15% na sua obra</h2>
-                    <p style="color: #555; line-height: 1.6; margin-bottom: 25px;">Descubra porque desenhar o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir, e como a tecnologia 3D elimina o retrabalho.</p>
-                    <a href="post-bim.html" style="background: #1A2436; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; align-self: flex-start; transition: 0.3s;">Ler Artigo Completo →</a>
+    <main class="container blog-main">
+        
+        <section class="featured-post-section">
+            <div class="featured-post-card">
+                <div class="featured-post-img" style="background-image: url('src/images/blog-bim.jpg');"></div>
+                <div class="featured-post-content">
+                    <span class="featured-post-tag">Artigo em Destaque</span>
+                    <h2 class="featured-post-title">Como a compatibilização em BIM economiza até 15% na sua obra</h2>
+                    <p class="featured-post-desc">Descubra porque desenhar o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir, e como a tecnologia 3D elimina o retrabalho.</p>
+                    <a href="blog/compatibilizacao-bim.html" class="btn-dark">Ler artigo completo</a>
                 </div>
             </div>
         </section>
 
-        <section style="background: #0F4C5C; color: white; padding: 40px; border-radius: 12px; margin-bottom: 60px; text-align: center; box-shadow: 0 10px 20px rgba(15, 76, 92, 0.2);">
-            <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Vai construir ou reformar este ano?</h3>
-            <p style="margin-bottom: 25px; color: #e0f2f1; max-width: 600px; margin-left: auto; margin-right: auto;">Descarregue o nosso Checklist Gratuito: <strong>5 Erros invisíveis na fundação e na hidráulica que encarecem a sua obra em 30%</strong>.</p>
-            <form action="#" method="post" style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-                <input type="email" placeholder="O seu melhor e-mail" required style="padding: 15px; width: 100%; max-width: 300px; border-radius: 5px; border: none; outline: none;">
-                <button type="submit" style="background: #D72638; color: white; padding: 15px 30px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer;">Quero receber o PDF</button>
+        <section class="lead-capture">
+            <h3>Vai construir ou reformar este ano?</h3>
+            <p>Descarregue o nosso Checklist Gratuito: <strong>5 Erros invisíveis na fundação e na hidráulica que encarecem a sua obra em 30%</strong>.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="O seu melhor e-mail" required>
+                <button type="submit">Quero receber o PDF</button>
             </form>
-            <p style="font-size: 0.8rem; color: #a1cdd8; margin-top: 15px;"><i class="fi fi-rr-lock"></i> Não enviamos spam. Cancele a subscrição quando quiser.</p>
+            <p class="lead-capture-note"><i class="fi fi-rr-lock"></i> Não enviamos spam. Cancele a subscrição quando quiser.</p>
         </section>
 
-        <h3 style="color: #1A2436; margin-bottom: 30px; font-size: 1.5rem; border-bottom: 2px solid #ddd; padding-bottom: 10px;">Publicações Recentes</h3>
+        <h3 class="section-title">Publicações Recentes</h3>
         
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px;">
+        <div class="blog-grid">
 
-            <article style="background: white; border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
-                <div style="height: 200px; background-color: #1A2436; background-image: url('src/images/blog-bim.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="padding: 25px;">
-                    <span style="color: #D72638; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Planeamento</span>
-                    <h4 style="color: #1A2436; margin: 10px 0; font-size: 1.2rem;">Como a compatibilização em BIM economiza até 15% na sua obra</h4>
-                    <p style="color: #555; font-size: 0.9rem; margin-bottom: 20px; line-height: 1.5;">Descubra porque fazer o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir.</p>
-                    <a href="blog/compatibilizacao-bim.html" style="color: #0F4C5C; font-weight: bold; text-decoration: none; border-bottom: 1px solid #0F4C5C; padding-bottom: 2px;">Ler artigo →</a>
+            <article class="blog-card">
+                <div class="blog-card-image" style="background-image: url('src/images/blog-bim.jpg');"></div>
+                <div class="blog-card-content">
+                    <span class="blog-card-category">Planeamento</span>
+                    <h4 class="blog-card-title">Como a compatibilização em BIM economiza até 15% na sua obra</h4>
+                    <p class="blog-card-desc">Descubra porque fazer o projeto elétrico e hidráulico separado do estrutural é o maior erro de quem vai construir.</p>
+                    <a href="blog/compatibilizacao-bim.html" class="blog-card-link">Ler artigo</a>
                 </div>
             </article>
-            <article style="background: white; border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
-                <div style="height: 200px; background-color: #1A2436; background-image: url('src/images/blog-fundacoes.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="padding: 25px;">
-                    <span style="color: #D72638; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Fundações</span>
-                    <h4 style="color: #1A2436; margin: 10px 0; font-size: 1.2rem;">Mitos e verdades sobre o uso de fundações profundas</h4>
-                    <p style="color: #555; font-size: 0.9rem; margin-bottom: 20px; line-height: 1.5;">Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.</p>
-                    <a href="blog/fundacoes-profundas.html" style="color: #0F4C5C; font-weight: bold; text-decoration: none; border-bottom: 1px solid #0F4C5C; padding-bottom: 2px;">Ler artigo →</a>
-                </div>
-            </article>
-            <article style="background: white; border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
-                <div style="height: 200px; background-color: #1A2436; background-image: url('src/images/blog-fundacoes.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="padding: 25px;">
-                    <span style="color: #D72638; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Fundações</span>
-                    <h4 style="color: #1A2436; margin: 10px 0; font-size: 1.2rem;">Mitos e verdades sobre o uso de fundações profundas</h4>
-                    <p style="color: #555; font-size: 0.9rem; margin-bottom: 20px; line-height: 1.5;">Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.</p>
-                    <a href="blog/fundacoes-profundas.html" style="color: #0F4C5C; font-weight: bold; text-decoration: none; border-bottom: 1px solid #0F4C5C; padding-bottom: 2px;">Ler artigo →</a>
-                </div>
-            </article>
-            <article style="background: white; border: 1px solid #eee; border-radius: 8px; overflow: hidden; transition: transform 0.3s; box-shadow: 0 4px 10px rgba(0,0,0,0.03);">
-                <div style="height: 200px; background-color: #1A2436; background-image: url('src/images/blog-fundacoes.jpg'); background-size: cover; background-position: center;"></div>
-                <div style="padding: 25px;">
-                    <span style="color: #D72638; font-size: 0.8rem; font-weight: bold; text-transform: uppercase;">Fundações</span>
-                    <h4 style="color: #1A2436; margin: 10px 0; font-size: 1.2rem;">Mitos e verdades sobre o uso de fundações profundas</h4>
-                    <p style="color: #555; font-size: 0.9rem; margin-bottom: 20px; line-height: 1.5;">Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.</p>
-                    <a href="blog/fundacoes-profundas.html" style="color: #0F4C5C; font-weight: bold; text-decoration: none; border-bottom: 1px solid #0F4C5C; padding-bottom: 2px;">Ler artigo →</a>
+            <article class="blog-card">
+                <div class="blog-card-image" style="background-image: url('src/images/blog-fundacoes.jpg');"></div>
+                <div class="blog-card-content">
+                    <span class="blog-card-category">Fundações</span>
+                    <h4 class="blog-card-title">Mitos e verdades sobre o uso de fundações profundas</h4>
+                    <p class="blog-card-desc">Entenda como a análise correta do solo pode evitar rachaduras e problemas estruturais no futuro do seu imóvel.</p>
+                    <a href="blog/fundacoes-profundas.html" class="blog-card-link">Ler artigo</a>
                 </div>
             </article>
         </div>
     </main>
 
-    <section style="background: #1A2436; padding: 60px 20px; text-align: center; color: white;">
-        <div class="container" style="max-width: 700px; margin: 0 auto;">
-            <h2 style="margin-bottom: 20px;">Tem um projeto em mente?</h2>
-            <p style="color: #ccc; margin-bottom: 30px; line-height: 1.6;">Deixe a parte complexa dos cálculos e das aprovações comigo. Solicite uma análise inicial para o seu terreno ou reforma sem qualquer compromisso.</p>
-            <a href="index.html#contato" style="background: #D72638; color: white; padding: 18px 40px; border-radius: 50px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 1.1rem; box-shadow: 0 5px 15px rgba(215, 38, 56, 0.3);">Quero o meu diagnóstico gratuito</a>
+    <section class="bottom-cta">
+        <div class="container bottom-cta-container">
+            <h2>Tem um projeto em mente?</h2>
+            <p>Deixe a parte complexa dos cálculos e das aprovações comigo. Solicite uma análise inicial para o seu terreno ou reforma sem qualquer compromisso.</p>
+            <a href="index.html#contato" class="btn-primary">Quero o meu diagnóstico gratuito</a>
         </div>
     </section>
 

@@ -18,6 +18,7 @@
 @import url(footer.css);
 
 @import url(section-thanks.css);
+@import url(blog.css);
 
 * {
     margin: 0;
