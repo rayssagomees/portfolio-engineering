@@ -2,8 +2,8 @@ class SiteFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer>
-            <div class="container">
-                <div class="footer-content">
+            <!--<div class="container">
+                <!--<div class="footer-content">
 
                     <div class="footer-section">
                         <div class="logo-footer">
@@ -14,12 +14,12 @@ class SiteFooter extends HTMLElement {
                         Projetos desenvolvidos por Rayssa Gomes, com validação e responsabilidade técnica de engenheiros parceiros registrados no CREA. Garantia de conformidade legal e segurança técnica em todos os serviços.
                         </p>
 
-                        <a data-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil no Instagram">
+                        <!--<a data-link="instagram" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil no Instagram">
                             <i class="fi fi-brands-instagram" aria-hidden="true"></i>
-                        </a>
+                        </a>-->
                     </div>
 
-                    <div class="footer-section">
+                    <!--<div class="footer-section">
                         <h3>Serviços</h3>
                         <ul class="footer-links">
                             <li><a href="/home#servicos">Gerenciamento de obras</a></li>
@@ -31,18 +31,18 @@ class SiteFooter extends HTMLElement {
                         </ul>
                     </div>
 
-                    <div class="footer-section">
-                        <h3>Institucional</h3>
-                        <ul class="footer-links">
+                    <!--<div class="footer-section">
+                        <!--<h3>Institucional</h3>
+                        <!--<ul class="footer-links">
                             <!--<li><a href="/blog">Blog</a></li>-->
                             <!--<li><a href="/">Carreiras</a></li>-->
-                            <li><a href="/home#faq">FAQ</a></li>
-                            <li><a href="/home#projetos">Portfólio</a></li>
+                            <!--<li><a href="/home#faq">FAQ</a></li>
+                            <!--<li><a href="/home#projetos">Portfólio</a></li>
                             <!--<li><a href="https://www.rayssagomes.com/rss.xml" target="_blank" aria-label="Assinar Feed RSS" title="Subscrever via RSS"><i class="fi fi-rs-rss"></i>Subscrever via RSS</a></li>-->
-                        </ul>
-                    </div>
+                        <!--</ul>
+                    </div>-->
 
-                    <div class="footer-section">
+                    <!--<div class="footer-section">
                         <h3>Transparência</h3>
                         <ul class="footer-links">
                             <li><a href="#">Termos</a></li>
@@ -50,7 +50,7 @@ class SiteFooter extends HTMLElement {
                         </ul>
                     </div>
 
-                </div>
+                </div>-->
 
                 <div class="footer-bottom">
                     <p>&copy; <span class="ano"></span> Rayssa Gomes. Todos os direitos reservados.</p>
